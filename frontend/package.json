@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://KrishJadav30.github.io/AI-Image-Detective/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
