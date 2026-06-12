@@ -3,6 +3,9 @@ import { pipeline, env } from '@xenova/transformers';
 // Skip local model check since we are running in browser
 env.allowLocalModels = false;
 
+// Suppress harmless ONNX warnings in the console
+env.backends.onnx.logLevel = 'error';
+
 // Define a variable to hold the pipeline instance
 let img2textPipeline = null;
 
